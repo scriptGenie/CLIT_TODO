@@ -29,5 +29,5 @@ export async function disconnectDB(){
 }
 
 
-connectDB();
-disconnectDB();
+// connectDB();
+// disconnectDB();
