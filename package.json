@@ -1,5 +1,5 @@
 {
-  "name": "C.L.I.T._TODO",
+  "name": "c.l.i.t._todo",
   "version": "1.0.0",
   "description": "Simple todo Command Line Interface Tool to be used with the C.L.I.T. Commander Toolset",
   "exports": "./index.js",
