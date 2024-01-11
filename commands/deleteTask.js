@@ -37,10 +37,10 @@ export default async function deleteTask() {
 
         // check delete operation
         if (response.deletedCount === 0) {
-            console.log(chalk.green('Delete Failed --- Could not find Todo matching provided code.'))
+            console.log(chalk.redBright('Delete Failed --- Could not find Todo matching provided code.'))
 
         } else {
-            console.log(chalk.redBright('Delete Task Successful'));
+            console.log(chalk.blueBright('Delete Task Successful'));
         };
 
         await disconnectDB();
@@ -50,5 +50,3 @@ export default async function deleteTask() {
         process.exit(1);
     };
 };
-
-deleteTask();
